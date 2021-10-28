@@ -5,11 +5,12 @@
 eBPF is a technology that allows running user-supplied programs inside the Linux kernel.
 For more info see https://ebpf.io/what-is-ebpf.
 
-Aya is an eBPF library built with a focus on operability and developer experience. It does
-not rely on libbpf nor bcc - it's built from the ground up purely in Rust, using only the
-libc crate to execute syscalls. With BTF support and when linked with musl, it offers
-a true compile once, run everywhere solution, where a single self-contained binary can be
-deployed on many linux distributions and kernel versions.
+[Aya](https://github.com/aya-rs/aya) is an eBPF library built with a focus on operability
+and developer experience. It does not rely on libbpf nor bcc - it's built from the ground
+up purely in Rust, using only the libc crate to execute syscalls. With BTF support and
+when linked with musl, it offers a true compile once, run everywhere solution, where
+a single self-contained binary can be deployed on many linux distributions and kernel
+versions.
 
 Some of the major features provided include:
 
