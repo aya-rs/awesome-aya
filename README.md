@@ -26,6 +26,11 @@ Some of the major features provided include:
 > love your help to keep this list up to date. Please feel free to file an issue or make
 > a PR if you would like to make a correction or want to have your awesome project included.
 
+## Contributing
+
+Contributions are welcome! Please see [the contributing guide](./CONTRIBUTING.md).
+If you would like to have your project included in this list, please file a pull request.
+
 ## Contents
 
 - [Reference Documentation](#reference-documentation)
@@ -73,10 +78,6 @@ Some of the major features provided include:
 The original idea for [awesome](https://github.com/sindresorhus/awesome) comes from
 [Sindre Sorhus](https://github.com/sindresorhus). The format of this repository is based
 on [zoidbergwill's Awesome eBPF list](https://github.com/zoidbergwill/awesome-ebpf).
-
-## Contributing
-
-Contributions are welcome! Please see [the contributing guide](./CONTRIBUTING.md).
 
 ## License
 
