@@ -36,7 +36,8 @@ If you would like to have your project included in this list, please file a pull
 
 - [Reference Documentation](#reference-documentation)
 - [Article and Presentations](#articles-and-presentations)
-- [Projects that Use Aya](#projects-that-use-aya)
+- [Small Tools that Use Aya](#small-tools-that-use-aya)
+- [Major Projects that Use Aya](#major-projects-that-use-aya)
 - [Aya eBPF-Side Libraries](#aya-ebpf-side-libraries)
 - [Acknowledgements](#acknowledgements)
 
@@ -62,7 +63,16 @@ If you would like to have your project included in this list, please file a pull
 - [eCHO episode 25: eBPF, Rust, and Aya](https://www.youtube.com/watch?v=TQ0ou-eFLAk)
     - Dave Tucker and Alessandro Decina discuss the Aya project and writing eBPF programs in Rust
 
-## Projects that Use Aya
+## Small Tools that Use Aya
+
+- [suidsnoop](https://github.com/willfindlay/suidsnoop) - Uses Aya and eBPF LSM programs to implement audit logging and policy enforcement for suid binaries
+    - Includes examples of:
+        - Writing LSM programs in aya-bpf
+        - Getting LSM program arguments in aya-bpf
+        - Enforcing custom security policy in aya-bpf
+        - Using `aya::AsyncPerfEventArray` to pass events to userspace
+
+## Major Projects that Use Aya
 
 - [lockc](https://github.com/rancher-sandbox/lockc) - An eBPF LSM-based MAC security audit system for container workloads in the cloud
     - A future version of lockc will [migrate to use Aya](https://github.com/rancher-sandbox/lockc/issues/49) for both userspace and eBPF
