@@ -74,9 +74,9 @@ If you would like to have your project included in this list, please file a pull
 
 ## Major Projects that Use Aya
 
-- [lockc](https://github.com/rancher-sandbox/lockc) - An eBPF LSM-based MAC security audit system for container workloads in the cloud
-    - A future version of lockc will [migrate to use Aya](https://github.com/rancher-sandbox/lockc/issues/49) for both userspace and eBPF
-    - This entry will be updated when the changes have been merged
+- [lockc](https://github.com/rancher-sandbox/lockc) - An eBPF LSM-based MAC security audit system for container workloads
+    - Works with Docker and Kubernetes (with containerd CRI)
+    - Enforcing 3 pre-defined policy levels on containers
 
 ## Aya eBPF-Side Libraries
 
