@@ -57,6 +57,9 @@ If you would like to have your project included in this list, please file a pull
 - [The original announcement of the Aya project](https://confused.ai/posts/announcing-aya)
     - Covers the goals of the project and some early logistics
 - [Adding BPF target support to the Rust compiler](https://confused.ai/posts/rust-bpf-target)
+- [Aya: your tRusty eBPF companion](https://deepfence.io/aya-your-trusty-ebpf-companion/)
+    - Shows examples how Aya makes it easier to write eBPF programs.
+    - Explains how [Deepfence](https://deepfence.io/) uses Aya, especially XDP/TC packet filtering stack.
 
 ### Aya-related talks
 
