@@ -63,8 +63,12 @@ If you would like to have your project included in this list, please file a pull
 
 ### Aya-related talks
 
+- [eBPF Summit 2021: Why Rust for writing eBPF programs](https://www.youtube.com/watch?v=HzXpnxUVZB0)
+    - Alessandro Decina
 - [eCHO episode 25: eBPF, Rust, and Aya](https://www.youtube.com/watch?v=TQ0ou-eFLAk)
     - Dave Tucker and Alessandro Decina discuss the Aya project and writing eBPF programs in Rust
+- [Linux Plumbers Conference 2021: Improving the eBPF Developer Experience with Rust](https://www.youtube.com/watch?v=yCf6AYpA8u0)
+    - Dave Tucker and Alessandro Decina
 
 ## Small Tools that Use Aya
 
