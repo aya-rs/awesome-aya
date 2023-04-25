@@ -80,6 +80,10 @@ If you would like to have your project included in this list, please file a pull
         - Getting LSM program arguments in aya-bpf
         - Enforcing custom security policy in aya-bpf
         - Using `aya::AsyncPerfEventArray` to pass events to userspace
+- [mybee](https://github.com/elbaro/mybee) - An eBPF profiler for MySQL 8.0
+    - Aya is used to attach to mysqld uprobes.
+    - mybee does not have to understand mysql wire protocol and utilize what mysqld already provides.
+    - Uses less CPU than AF_PACKET or other eBPF-based tools that monitor TCP packets.
 
 ## Major Projects that Use Aya
 
