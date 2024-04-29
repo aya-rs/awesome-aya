@@ -84,6 +84,13 @@ If you would like to have your project included in this list, please file a pull
     - Aya is used to attach to mysqld uprobes.
     - mybee does not have to understand mysql wire protocol and utilize what mysqld already provides.
     - Uses less CPU than AF_PACKET or other eBPF-based tools that monitor TCP packets.
+- [cir](https://github.com/seanyoung/cir) - An tool for loading infrared remote control keymaps for Linux
+    - Aya is used to load, query and remove eBPF infrared decoders
+    - Compiles IRP Notation to eBPF using LLVM
+        - IRP Notation is compiled to LLVM IR using inkwell crate
+        - LLVM libraries compile LLVM IR to valid object file
+        - Aya loads object file
+        - All done in-process, no external files are read/written, or any other dependencies
 
 ## Major Projects that Use Aya
 
