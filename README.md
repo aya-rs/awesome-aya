@@ -98,7 +98,7 @@ If you would like to have your project included in this list, please file a pull
 - [lockc](https://github.com/rancher-sandbox/lockc) - An eBPF LSM-based MAC security audit system for container workloads
     - Works with Docker and Kubernetes (with containerd CRI)
     - Enforcing 3 pre-defined policy levels on containers
-- [blixt](https://github.com/kong/blixt) - A [Kubernetes](https://kubernetes.io) [Gateway API](https://gateway-api.sigs.k8s.io) based Layer 4 Load-Balancer for ingress
+- [blixt](https://github.com/kubernetes-sigs/blixt) - A [Kubernetes](https://kubernetes.io) [Gateway API](https://gateway-api.sigs.k8s.io) based Layer 4 Load-Balancer for ingress
     - Aya is used for eBPF code AND userspace (also uses [Kube-RS](https://github.com/kube-rs/kube) for control-plane)
     - TC is used on the Kubernetes nodes for load-balancer functionality
 
