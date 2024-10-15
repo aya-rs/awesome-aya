@@ -101,6 +101,10 @@ If you would like to have your project included in this list, please file a pull
 - [blixt](https://github.com/kong/blixt) - A [Kubernetes](https://kubernetes.io) [Gateway API](https://gateway-api.sigs.k8s.io) based Layer 4 Load-Balancer for ingress
     - Aya is used for eBPF code AND userspace (also uses [Kube-RS](https://github.com/kube-rs/kube) for control-plane)
     - TC is used on the Kubernetes nodes for load-balancer functionality
+- [kunai](https://github.com/kunai-project/kunai) - A threat hunting/detection security monitoring tool:
+    - Utilizes a bunch of Aya-based eBPF probes to generate security-relevant events for various cyber threat hunting and detection tasks.
+    - Can serve as a log source for Incident Response and forensic analysis.
+    - With the right rules, it can function as a real-time behavioral detection system.
 
 ## Aya eBPF-Side Libraries
 
