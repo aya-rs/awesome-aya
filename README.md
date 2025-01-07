@@ -103,7 +103,7 @@ If you would like to have your project included in this list, please file a pull
     - TC is used on the Kubernetes nodes for load-balancer functionality
 - [kunai](https://github.com/kunai-project/kunai) - A threat hunting/detection security monitoring tool:
     - Utilizes a bunch of Aya-based eBPF probes to generate security-relevant events for various cyber threat hunting and detection tasks.
-    - Can serve as a log source for Incident Response and forensic analysis.
+    - Can serve as a log source for incident response and forensic analysis.
     - With the right rules, it can function as a real-time behavioral detection system.
 
 ## Aya eBPF-Side Libraries
