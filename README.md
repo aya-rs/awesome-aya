@@ -93,6 +93,7 @@ If you would like to have your project included in this list, please file a pull
         - All done in-process, no external files are read/written, or any other dependencies
 - [oryx](https://github.com/pythops/oryx) - A TUI (Terminal User Interface) for sniffing network traffic.
 - [tamanoir](https://github.com/pythops/tamanoir) - A simple keylogger.
+- [xdp-loader](https://github.com/BRA1L0R/xdp-loader) - Configurable XDP loader in Rust. Supports jump table dispatching and resource pinning in predictable folder structures.
 
 ## Major Projects that Use Aya
 
