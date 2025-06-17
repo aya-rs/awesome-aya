@@ -62,6 +62,9 @@ If you would like to have your project included in this list, please file a pull
     - Explains how [Deepfence](https://deepfence.io/) uses Aya, especially XDP/TC packet filtering stack.
 - [UDP Load-Balancer Demo using Aya](https://github.com/shaneutt/ebpf-rust-udp-loadbalancer-demo)
     - Provides a basic example of how to get started inspecting and modifying packets in XDP programs
+- [Getting started with eBPF with Aya](https://dev.to/littlejo/lets-introduce-ebpf-and-aya-40ji)
+    - A beginner-friendly series of articles on writing eBPF programs with Aya from scratch
+    - [Available labs](https://killercoda.com/littlejo/course/aya-prod)
 
 ### Aya-related talks
 
