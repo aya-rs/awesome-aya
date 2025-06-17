@@ -107,6 +107,9 @@ If you would like to have your project included in this list, please file a pull
     - Utilizes a bunch of Aya-based eBPF probes to generate security-relevant events for various cyber threat hunting and detection tasks.
     - Can serve as a log source for incident response and forensic analysis.
     - With the right rules, it can function as a real-time behavioral detection system.
+- [bombini](https://github.com/anfedotoff/bombini) - An eBPF-based agent for security monitoring
+    - Using Aya to implement detectors with various event types: process execution, network connections, file access, etc.
+    - Provides specialized detectors for detecting malicious activity like [GTFObins](https://gtfobins.github.io/) execution
 
 ## Aya eBPF-Side Libraries
 
