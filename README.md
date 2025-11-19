@@ -113,6 +113,10 @@ If you would like to have your project included in this list, please file a pull
 - [bombini](https://github.com/anfedotoff/bombini) - An eBPF-based agent for security monitoring
     - Using Aya to implement detectors with various event types: process execution, network connections, file access, etc.
     - Provides specialized detectors for detecting malicious activity like [GTFObins](https://gtfobins.github.io/) execution
+- [luci-app-bandix](https://github.com/timsaya/luci-app-bandix) - A [OpenWrt](https://github.com/openwrt/openwrt) traffic monitoring application
+    - Built on top of [bandix](https://github.com/timsaya/bandix) core backend, which uses Aya framework for eBPF program loading and management
+    - Provides real-time network traffic monitoring
+    - Supports LAN/WAN speed monitoring, device TCP/UDP connection monitoring, and DNS monitoring
 
 ## Aya eBPF-Side Libraries
 
