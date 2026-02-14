@@ -97,7 +97,7 @@ If you would like to have your project included in this list, please file a pull
 - [oryx](https://github.com/pythops/oryx) - A TUI (Terminal User Interface) for sniffing network traffic.
 - [tamanoir](https://github.com/pythops/tamanoir) - A simple keylogger.
 - [xdp-loader](https://github.com/BRA1L0R/xdp-loader) - Configurable XDP loader in Rust. Supports jump table dispatching and resource pinning in predictable folder structures.
-- [profile-bee](https://github.com/zz85/profile-bee/) - An eBPF-based CPU profiler with interactive TUI, DWARF unwinding support, and multiple output formats
+- [profile-bee](https://github.com/zz85/profile-bee/) - CPU profiler with interactive TUI, DWARF unwinding support, and multiple output formats
 
 ## Major Projects that Use Aya
 
