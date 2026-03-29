@@ -113,6 +113,10 @@ If you would like to have your project included in this list, please file a pull
 - [bombini](https://github.com/anfedotoff/bombini) - An eBPF-based agent for security monitoring
     - Using Aya to implement detectors with various event types: process execution, network connections, file access, etc.
     - Provides specialized detectors for detecting malicious activity like [GTFObins](https://gtfobins.github.io/) execution
+- [InnerWarden](https://github.com/InnerWarden/innerwarden) - Autonomous security agent for Linux with real-time threat detection and automated response
+    - All 38 eBPF programs built with Aya: 23 tracepoints, 3 kprobes, 3 LSM hooks, 1 XDP, 1 raw_tracepoint with tail call dispatch via ProgramArray
+    - CO-RE/BTF relocations for cross-kernel portability, ring buffer with epoll-based wakeup, container-aware via cgroup_id
+    - Compiled as `#![no_std]` crate targeting `bpfel-unknown-none`
 
 ## Aya eBPF-Side Libraries
 
