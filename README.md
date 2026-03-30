@@ -113,6 +113,10 @@ If you would like to have your project included in this list, please file a pull
 - [bombini](https://github.com/anfedotoff/bombini) - An eBPF-based agent for security monitoring
     - Using Aya to implement detectors with various event types: process execution, network connections, file access, etc.
     - Provides specialized detectors for detecting malicious activity like [GTFObins](https://gtfobins.github.io/) execution
+- [ayaFlow](https://github.com/DavidHavoc/ayaFlow) - A lightweight eBPF-based network traffic analyzer in Rust using Aya.
+    - Provides per-node packet visibility without a service mesh or CNI replacement.
+    - Deploys as a Kubernetes DaemonSet with built-in Prometheus metrics.
+    - Focuses on low overhead rather than full L7 tracing or network policy enforcement.
 
 ## Aya eBPF-Side Libraries
 
