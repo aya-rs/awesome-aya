@@ -97,6 +97,11 @@ If you would like to have your project included in this list, please file a pull
 - [oryx](https://github.com/pythops/oryx) - A TUI (Terminal User Interface) for sniffing network traffic.
 - [tamanoir](https://github.com/pythops/tamanoir) - A simple keylogger.
 - [xdp-loader](https://github.com/BRA1L0R/xdp-loader) - Configurable XDP loader in Rust. Supports jump table dispatching and resource pinning in predictable folder structures.
+- [netwatch](https://github.com/matthart1983/netwatch) - A network diagnostics TUI that uses Aya to load a kprobe on `tcp_v4_connect` for per-process connection attribution.
+    - eBPF program lives in a sibling crate, [netwatch-sdk](https://crates.io/crates/netwatch-sdk), and writes per-(pid, comm, 5-tuple) connect events to a ringbuffer.
+    - Userspace reader thread drains the ringbuffer into a per-flow attribution cache that the Connections / Packets / Processes tabs overlay on top of `lsof`/`ss`-derived rows.
+    - Gracefully falls back to `lsof`/`ss` polling when the kprobe can't load (missing `CAP_BPF`/`CAP_PERFMON`, kernel < 5.10, non-Linux host).
+    - The aya path coexists with libpcap-based DPI across 13 protocols, JA4 fingerprinting, full RFC 9001 QUIC Initial decryption, TCP retransmit analytics, and an optional Landlock sandbox + capability drop applied after the kprobe attaches.
 
 ## Major Projects that Use Aya
 
