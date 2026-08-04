@@ -34,12 +34,18 @@ If you would like to have your project included in this list, please file a pull
 
 ## Contents
 
-- [Reference Documentation](#reference-documentation)
-- [Article and Presentations](#articles-and-presentations)
-- [Small Tools that Use Aya](#small-tools-that-use-aya)
-- [Major Projects that Use Aya](#major-projects-that-use-aya)
-- [Aya eBPF-Side Libraries](#aya-ebpf-side-libraries)
-- [Acknowledgements](#acknowledgements)
+- [Awesome Aya ](#awesome-aya-)
+  - [Contributing](#contributing)
+  - [Contents](#contents)
+  - [Reference Documentation](#reference-documentation)
+  - [Articles and Presentations](#articles-and-presentations)
+    - [Aya-related blog posts](#aya-related-blog-posts)
+    - [Aya-related talks](#aya-related-talks)
+  - [Small Tools that Use Aya](#small-tools-that-use-aya)
+  - [Major Projects that Use Aya](#major-projects-that-use-aya)
+  - [Aya eBPF-Side Libraries](#aya-ebpf-side-libraries)
+  - [Acknowledgements](#acknowledgements)
+  - [License](#license)
 
 ## Reference Documentation
 
@@ -97,6 +103,7 @@ If you would like to have your project included in this list, please file a pull
 - [oryx](https://github.com/pythops/oryx) - A TUI (Terminal User Interface) for sniffing network traffic.
 - [tamanoir](https://github.com/pythops/tamanoir) - A simple keylogger.
 - [xdp-loader](https://github.com/BRA1L0R/xdp-loader) - Configurable XDP loader in Rust. Supports jump table dispatching and resource pinning in predictable folder structures.
+- [fault](https://github.com/fault-project/fault-cli) - CLI and AI-MCP L4/L7 fault injector.
 
 ## Major Projects that Use Aya
 
