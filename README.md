@@ -97,6 +97,7 @@ If you would like to have your project included in this list, please file a pull
 - [oryx](https://github.com/pythops/oryx) - A TUI (Terminal User Interface) for sniffing network traffic.
 - [tamanoir](https://github.com/pythops/tamanoir) - A simple keylogger.
 - [xdp-loader](https://github.com/BRA1L0R/xdp-loader) - Configurable XDP loader in Rust. Supports jump table dispatching and resource pinning in predictable folder structures.
+- [honeybeepf](https://github.com/jundorok/honeybeePF) - Captures GPU inter-node communication latency for AI datacenters with minimal overhead. It also tracks LLM API usage, including token consumption and cost estimation, giving teams full visibility into their AI infrastructure spending. Deploy via k8s Helm charts, with easy plug-and-play metric toggles and OpenTelemetry support.
 
 ## Major Projects that Use Aya
 
