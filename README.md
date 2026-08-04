@@ -1,3 +1,6 @@
+- [Cyber Aura / Aura Shield](https://github.com/nikhilsharma987880-bot/hybrid_log_parser) - An autonomous, ultra-high-performance EDR suite engineered in a hybrid Rust and C++ architecture via FFI, leveraging native eBPF/XDP hooks for real-time kernel-level threat mitigation and packet dropping.
+
+
 # Awesome Aya [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 > A curated list of awesome eBPF 🐝 projects using aya-rs and Rust 🦀
