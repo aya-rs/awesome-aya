@@ -98,6 +98,7 @@ If you would like to have your project included in this list, please file a pull
 - [tamanoir](https://github.com/pythops/tamanoir) - A simple keylogger.
 - [xdp-loader](https://github.com/BRA1L0R/xdp-loader) - Configurable XDP loader in Rust. Supports jump table dispatching and resource pinning in predictable folder structures.
 - [profile-bee](https://github.com/zz85/profile-bee/) - CPU profiler with interactive TUI, DWARF unwinding support, and multiple output formats
+- [talus](https://github.com/BartoszOsiej/talus-process-monitor) - Ransomware detection & response agent for Linux. Aya-based eBPF probes watch process file activity, sliding-window heuristics score ransomware-like behavior, and the userspace agent kills offending processes in real time.
 
 ## Major Projects that Use Aya
 
