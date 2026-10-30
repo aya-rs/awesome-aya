@@ -118,6 +118,7 @@ If you would like to have your project included in this list, please file a pull
     - Built on top of [bandix](https://github.com/timsaya/bandix) core backend, which uses Aya framework for eBPF program loading and management
     - Provides real-time network traffic monitoring
     - Supports LAN/WAN speed monitoring, device TCP/UDP connection monitoring, and DNS monitoring
+- [OshoosiClaw](https://github.com/oyesanyf/OshoosiClaw) - Pure-Rust Endpoint Detection & Response (EDR) and runtime security daemon leveraging Rust eBPF kernel probes (`osoosi-ebpf`) for syscall telemetry, container escape detection, and active process containment.
 
 ## Aya eBPF-Side Libraries
 
