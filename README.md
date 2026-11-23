@@ -118,6 +118,9 @@ If you would like to have your project included in this list, please file a pull
     - Built on top of [bandix](https://github.com/timsaya/bandix) core backend, which uses Aya framework for eBPF program loading and management
     - Provides real-time network traffic monitoring
     - Supports LAN/WAN speed monitoring, device TCP/UDP connection monitoring, and DNS monitoring
+- [NorthNarrow](https://github.com/northnarrow/northnarrow-new) - An open-source endpoint detection and response (EDR) agent for Linux, in Rust end to end
+    - Aya-based eBPF sensors (exec, file opens and integrity, TCP/UDP flows, DNS, TLS, kernel modules, io_uring, bpf()) and BPF-LSM deny hooks that protect the agent against root
+    - Deterministic on-host detection, every record signed into hash chains, no telemetry leaves the host (first alpha, observe-only)
 
 ## Aya eBPF-Side Libraries
 
