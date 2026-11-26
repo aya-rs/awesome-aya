@@ -98,6 +98,8 @@ If you would like to have your project included in this list, please file a pull
 - [tamanoir](https://github.com/pythops/tamanoir) - A simple keylogger.
 - [xdp-loader](https://github.com/BRA1L0R/xdp-loader) - Configurable XDP loader in Rust. Supports jump table dispatching and resource pinning in predictable folder structures.
 - [profile-bee](https://github.com/zz85/profile-bee/) - CPU profiler with interactive TUI, DWARF unwinding support, and multiple output formats
+- [minecraft-xdp-guard](https://github.com/regksemx/minecraft-xdp-guard) - XDP DDoS filter for Minecraft servers: inspects Java handshakes and logins, Bedrock RakNet and NetherNet, Simple Voice Chat, over IPv4 and IPv6
+    - Aya loads the XDP program, pins its maps so restarts and upgrades keep every player connected, and reads them for metrics and `doctor`
 
 ## Major Projects that Use Aya
 
